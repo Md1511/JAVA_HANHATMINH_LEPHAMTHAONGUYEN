@@ -141,7 +141,8 @@ public class Model_File_Sender {
                 if (os.length > 0) {
                     boolean act = (boolean) os[0];
                     if (act) {
-                        try {
+                        try {git remote add origin https://github.com/Md1511/END_JAVAA.git
+
                             if (!data.isFinish()) {
                                 if (event != null) {
                                     event.onSending(getPercentage());
